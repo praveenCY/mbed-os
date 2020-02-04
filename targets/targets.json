@@ -13138,7 +13138,8 @@
         ],
         "macros_add": [
             "CY8C624ABZI_D44",
-            "CYBSP_WIFI_CAPABLE"
+            "CYBSP_WIFI_CAPABLE",
+            "WIFI_WPA3_SUPPORT"
         ],
         "public": false,
         "overrides": {
@@ -13169,7 +13170,8 @@
             "CY8C6245LQI_S3D72",
             "CYBSP_WIFI_CAPABLE",
             "CY_ENABLE_XIP_PROGRAM",
-            "CY_STORAGE_WIFI_DATA=\".cy_xip\""
+            "CY_STORAGE_WIFI_DATA=\".cy_xip\"",
+            "WIFI_WPA3_SUPPORT"
         ],
         "public": false,
         "overrides": {
@@ -13206,7 +13208,8 @@
         ],
         "macros_add": [
             "CYB0644ABZI_S2D44",
-            "CYBSP_WIFI_CAPABLE"
+            "CYBSP_WIFI_CAPABLE",
+            "WIFI_WPA3_SUPPORT"
         ],
         "detect_code": [
             "190A"
@@ -13243,7 +13246,8 @@
         "macros_add": [
             "CY8C6247BZI_D54",
             "CYHAL_UDB_SDIO",
-            "CYBSP_WIFI_CAPABLE"
+            "CYBSP_WIFI_CAPABLE",
+            "WIFI_WPA3_SUPPORT"
         ],
         "detect_code": [
             "1900"
@@ -13462,7 +13466,8 @@
         "macros_add": [
             "CY8C6247BZI_D54",
             "CYHAL_UDB_SDIO",
-            "CYBSP_WIFI_CAPABLE"
+            "CYBSP_WIFI_CAPABLE",
+            "WIFI_WPA3_SUPPORT"
         ],
         "detect_code": [
             "1906"
@@ -13510,7 +13515,8 @@
         "macros_add": [
             "CY8C6247FDI_D52",
             "CYHAL_UDB_SDIO",
-            "CYBSP_WIFI_CAPABLE"
+            "CYBSP_WIFI_CAPABLE",
+            "WIFI_WPA3_SUPPORT"
         ],
         "detect_code": [
             "1903"

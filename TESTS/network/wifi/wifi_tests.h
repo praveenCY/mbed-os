@@ -81,4 +81,7 @@ void wifi_scan_null(void);
 /** Call WiFiInterface::scan() with valid accesspoint list allocated */
 void wifi_scan(void);
 
+/** Test WiFiInterface::connect() with wpa3 security protocol */
+void wifi_connect_wpa3_secure(void);
+
 #endif //WIFI_TESTS_H

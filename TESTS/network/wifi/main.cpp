@@ -84,6 +84,10 @@ Case cases[] = {
     //Most boards are not passing this test, but they should if they support non-blocking API.
     //Case("WIFI_CONNECT_DISCONNECT_NONBLOCK", wifi_connect_disconnect_nonblock),
 #endif
+#if defined(MBED_CONF_APP_WIFI_WPA3_SSID) && defined(MBED_CONF_APP_WIFI_WPA3_PASSWORD) && \
+    defined(MBED_CONF_APP_WIFI_WPA3_PROTOCOL) && defined(WIFI_WPA3_SUPPORT)
+    Case("WIFI-WPA3-CONNECT", wifi_connect_wpa3_secure),
+#endif
 };
 
 Specification specification(test_setup, cases, greentea_continue_handlers);
